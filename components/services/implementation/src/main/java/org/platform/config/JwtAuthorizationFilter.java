@@ -19,11 +19,6 @@ import java.util.ArrayList;
 @Component
 public class JwtAuthorizationFilter extends OncePerRequestFilter{
 
-//    private final JwtUtil jwtUtil;
-//
-//    public JwtAuthorizationFilter(JwtUtil jwtUtil) {
-//        this.jwtUtil = jwtUtil;
-//    }
     @Autowired
     private JwtUtil jwtUtil;
 

@@ -59,6 +59,7 @@ public class AccountController {
           return accountService.getAccount(id);
     }
 
+
     @Operation(summary = "Update account.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Updated.", content = {
@@ -94,7 +95,4 @@ public class AccountController {
     public void deleteAccount(@PathVariable UUID accountId) {
             accountService.deleteAccount(accountId);
     }
-
-
-
 }

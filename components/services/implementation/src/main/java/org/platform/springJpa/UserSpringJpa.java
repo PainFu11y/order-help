@@ -223,7 +223,6 @@ public class UserSpringJpa implements UserService {
         user.setPassword(null);
         return user;
     }
-
 }
 
 
